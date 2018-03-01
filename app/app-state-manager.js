@@ -14,7 +14,7 @@
         })
         .state("google", {
                 url: "/google",
-                templateUrl: "app/feature/goolge/goolge.html"
+                templateUrl: "app/feature/google/google.html"
         })
 
     });

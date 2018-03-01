@@ -9,5 +9,5 @@
 
     };
 
-    angular.module('bankingApp').controller('googleController', [GoolgeController]);
+    angular.module('bankingApp').controller('googleController', [GoogleController]);
 }());
