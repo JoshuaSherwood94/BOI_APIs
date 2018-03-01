@@ -3,9 +3,9 @@
     var BBVAController =  function($http) {
 
     	var vm = this;
-      vm.test="This is a test";
+      vm.test="This is a test API Call";
       console.log(vm.test);
-      
+
       $http.get("https://jsonplaceholder.typicode.com/posts/1")
     .then(function(response) {
       vm.resultData = response.data;
